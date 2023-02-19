@@ -1,4 +1,4 @@
-Package: sedproxyshiny
+Package: shinysedproxy
 Title: Shiny Application for the Sedproxy Package
 Version: 0.1.0
 Authors@R: c(person("Thomas", "Laepple", email = "tlaepple@awi.de", role = c("aut")), 
@@ -17,4 +17,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/EarthSystemDiagnostics/sedproxyshiny
+URL: https://github.com/EarthSystemDiagnostics/shinysedproxy

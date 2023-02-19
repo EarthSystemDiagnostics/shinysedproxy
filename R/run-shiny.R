@@ -10,7 +10,7 @@
 #' @examples
 #' \dontrun{ShinySedproxy()}
 ShinySedproxy <- function(){
-  fl <- system.file("sedproxy-shiny/app.R", package = "sedproxyshiny")
+  fl <- system.file("sedproxy-shiny/app.R", package = "shinysedproxy")
   shiny::runApp(fl)
 }
 
