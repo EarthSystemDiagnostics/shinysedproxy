@@ -1,0 +1,20 @@
+Package: sedproxyshiny
+Title: Shiny Application for the Sedproxy Package
+Version: 0.1.0
+Authors@R: c(person("Thomas", "Laepple", email = "tlaepple@awi.de", role = c("aut")), 
+    person("Andrew", "Dolman", email = "andrew.dolman@awi.de", role = c("aut", "cre")))
+Description: Implements a Shiny App for the Sedproxy Package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-gb
+LazyData: true
+RoxygenNote: 7.2.0
+Depends:
+    R (>= 3.5.0)
+Imports: sedproxy, shiny, readr
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/EarthSystemDiagnostics/sedproxyshiny
